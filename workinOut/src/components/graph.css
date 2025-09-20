@@ -1,0 +1,30 @@
+.graph{
+    display: flex;
+    flex-direction: row;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    width: fit-content;
+    align-items: flex-end;
+    height: 260px;
+}
+.proteinBar, .carbBar, .goalIntakeBar{
+    /* height: 20px; */
+    
+    text-align:center;
+    transition: height 0.5s ease;
+    background-color: #b6eaa2;
+    width: 50px;
+    margin-inline: 10px;
+}
+.graphButton{
+    all: unset;
+    padding: 10px;
+    background-color: #b6eaa2;
+    border-radius: 20px;
+}
+.graphButton:active{
+    background-color: #83e05e;
+}
+.graphButton:hover{
+    background-color: #c4f3b2;
+}

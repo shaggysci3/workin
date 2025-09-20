@@ -1,0 +1,62 @@
+#root {
+  max-width: 1280px;
+  
+  /* font-family: 'I shot the Serif', sans-serif; */
+}
+body {
+  display: block;
+  margin: unset;
+}
+.websiteContainer{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.imgBlock{
+  max-width: 1920px;
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  width: 100%;
+  align-items: center;
+}
+.blockImg{
+  width: 50%;
+}
+.blockCard{
+  padding: 30px;
+  background-color:#f0ca89 ;
+  max-width: 1920;
+  height: 300px;
+}
+.cardContainer{
+  max-width: 1920px;
+    position: relative;
+    top: 34px;
+    height: 200px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+  row-gap: 30px;
+  column-gap: 30px;
+    
+}
+.myCard{
+  height: 250px;
+  width: 400px;
+  background-color: white;
+  box-shadow: 3px 1px 20px -2px black;
+  padding: 10px;
+}
+.cardTitle::after{
+  content: "";
+  position:absolute;
+  width: 30px;
+  height: 3px;
+  background-color: #263F4C;
+  top: 50px;
+  left: 10px;
+}
+.cardTitle{
+  margin-bottom: 40px;
+}
